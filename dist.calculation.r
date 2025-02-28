@@ -83,7 +83,7 @@ dist.calculation <-
     write.csv(Output.table, savingFileName)
   }
 #------------------------------------------------------------------------------------------
-dist.calculation("Documents/Global_Dryocosmus/2020/saturation_plotting/concatenated.nex", # Input tree
-                 "Documents/Global_Dryocosmus/2020/saturation_plotting/pos3.nexus", # Input sequence
-                 "Documents/Global_Dryocosmus/2020/saturation_plotting/distTable.csv") # Output the csv file
+dist.calculation("provide/your/full/absolute/path/concatenated.nex", # Input tree
+                 "provide/your/full/absolute/path/pos3.nexus", # Input sequence
+                 "provide/your/full/absolute/path/distTable.csv") # Output the csv file
 
